@@ -35,28 +35,28 @@ const StudyWithUs = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white p-10 shadow-md border-t-4 border-pink-500">
+            <div className="bg-white p-10  border-t-4 border-pink-500">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Hands-On, Real-Client Training</h3>
               <p className="text-gray-600 font-normal leading-relaxed">
                 We don't just teach theory. Our students work on real clients in our on-campus salon, building confidence and practical salon skills before they even graduate.
               </p>
             </div>
             
-            <div className="bg-white p-10 shadow-md border-t-4 border-purple-800">
+            <div className="bg-white p-10  border-t-4 border-purple-800">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Industry-Experienced Tutors</h3>
               <p className="text-gray-600 font-normal leading-relaxed">
                 Our teachers aren't just academics, they are working professionals who mentor you on the latest styles, trends, and techniques in the beauty market.
               </p>
             </div>
 
-            <div className="bg-white p-10 shadow-md border-t-4 border-purple-800">
+            <div className="bg-white p-10  border-t-4 border-purple-800">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">NITA Accredited</h3>
               <p className="text-gray-600 font-normal leading-relaxed">
                 Our programs are nationally recognized, giving your certificate true value and opening doors to both local and international career opportunities.
               </p>
             </div>
 
-            <div className="bg-white p-10 shadow-md border-t-4 border-pink-500">
+            <div className="bg-white p-10  border-t-4 border-pink-500">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Flexible & Open Admissions</h3>
               <p className="text-gray-600 font-normal leading-relaxed">
                 We believe talent has no barriers. <strong className="font-semibold text-gray-900">No grade is required to train with us.</strong> We have flexible May and September intakes so you can start at a time that suits your schedule.
@@ -108,7 +108,7 @@ const StudyWithUs = () => {
             <p className="text-lg text-gray-500 font-normal leading-relaxed">We have a simple, transparent fee structure. Everything you need is listed below.</p>
           </div>
 
-          <div className="bg-white shadow-md border border-gray-100 overflow-hidden">
+          <div className="bg-white  border border-gray-100 overflow-hidden">
             <div className="bg-purple-900 text-white px-8 py-4">
               <h3 className="text-xl font-bold">Admission Requirements</h3>
             </div>

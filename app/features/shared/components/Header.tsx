@@ -15,7 +15,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="w-full bg-white shadow-sm sticky top-0 z-50">
+    <header className="w-full bg-white shadow-xs sticky top-0 z-50">
       {/* Top bar */}
       <div className="hidden md:block bg-pink-600 text-white text-sm">
         <div className="max-w-8xl mx-auto flex justify-between items-center px-4 py-2">

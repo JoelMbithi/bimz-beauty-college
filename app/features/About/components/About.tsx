@@ -52,7 +52,7 @@ const About = () => {
       <section className="py-20 md:py-24 px-4 md:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12">
           {/* Mission Card */}
-          <div className="bg-white p-10 shadow-md border-t-4 border-pink-500">
+          <div className="bg-white p-10  border-t-4 border-pink-500">
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-pink-600 mb-4">Our Mission</p>
             <h3 className="text-2xl font-semibold text-gray-900 mb-6">Nurturing Talent</h3>
             <p className="text-gray-600 font-normal leading-relaxed">
@@ -61,7 +61,7 @@ const About = () => {
           </div>
 
           {/* Vision Card */}
-          <div className="bg-white p-10 shadow-md border-t-4 border-purple-800">
+          <div className="bg-white p-10  border-t-4 border-purple-800">
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-purple-800 mb-4">Our Vision</p>
             <h3 className="text-2xl font-semibold text-gray-900 mb-6">Leading the Standard</h3>
             <p className="text-gray-600 font-normal leading-relaxed">
@@ -133,7 +133,7 @@ const About = () => {
 
           <Link
             href="/ApplyNow"
-            className="inline-block bg-white text-purple-900 font-bold py-4 px-12 hover:bg-pink-200 transition-colors"
+            className="inline-block bg-white text-purple-900 font-bold py-4 px-12 hover:bg-pink-600  hover:text-white transition-colors"
           >
             Apply Now
           </Link>

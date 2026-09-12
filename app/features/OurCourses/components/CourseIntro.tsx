@@ -12,7 +12,11 @@ const courses: CourseCard[] = [
     description:
       'Bimz Beaty College is driven by a passion to relay the secrets of hairdressing to new entrants to the industry.',
     icon: (
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+      <>
+        <circle cx="6" cy="6" r="2.5" strokeWidth={1.5} />
+        <circle cx="6" cy="18" r="2.5" strokeWidth={1.5} />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 4L7.5 16.5M8.6 8.6L20 20" />
+      </>
     ),
   },
   {
@@ -20,7 +24,12 @@ const courses: CourseCard[] = [
     description:
       'The practical training aspect of this course is hands-on practicing of a wide range of services on the public at the Institute.',
     icon: (
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={1.5}
+        d="M12 21a7 7 0 007-7c0-3.866-3.582-8-7-12.5C8.582 6 5 10.134 5 14a7 7 0 007 7z"
+      />
     ),
   },
   {
@@ -28,7 +37,12 @@ const courses: CourseCard[] = [
     description:
       'Transform your creativity into stunning color combinations with our comprehensive coloring techniques and modern application methods.',
     icon: (
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={1.5}
+        d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42"
+      />
     ),
   },
 ];

@@ -238,49 +238,9 @@ const NewsEvents = () => {
         </div>
       </section>
 
-      {/* Newsletter Signup */}
-      <section className="py-24 md:py-32 px-4 md:px-8 lg:px-16">
-        <div className="max-w-5xl mx-auto bg-purple-950 text-white p-10 md:p-16 text-center relative overflow-hidden">
-          <div className="absolute top-0 left-0 w-64 h-64 bg-pink-500 rounded-full filter blur-3xl opacity-20" aria-hidden="true"></div>
-          
-          <div className="relative">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Stay in the loop</h2>
-            <p className="text-white/70 font-normal mb-10 max-w-xl mx-auto">
-              Get alerts about upcoming intakes, open days, and exclusive short courses straight to your inbox.
-            </p>
+      
 
-            <form className="flex flex-col md:flex-row gap-4 max-w-xl mx-auto">
-              <input 
-                type="email" 
-                placeholder="Enter your email address" 
-                className="flex-1 px-6 py-4 bg-white text-gray-900 placeholder-gray-400 outline-none border-2 border-transparent focus:border-pink-400 font-normal"
-              />
-              <button 
-                type="submit" 
-                className="bg-pink-500 hover:bg-pink-400 text-white font-bold py-4 px-10 transition-colors uppercase tracking-widest text-sm"
-              >
-                Subscribe
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
-
-      {/* Final CTA */}
-      <section className="py-24 md:py-32 px-4 md:px-8 lg:px-16 bg-white text-center border-t border-gray-200">
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
-          Want to be part of our next story?
-        </h2>
-        <p className="text-gray-600 font-normal text-lg mb-10">
-          Secure your spot for the upcoming intake.
-        </p>
-        <Link
-          href="/ApplyNow"
-          className="inline-block bg-purple-950 text-white font-bold py-5 px-14 hover:bg-purple-900 transition-colors uppercase tracking-widest text-xs"
-        >
-          Apply Now
-        </Link>
-      </section>
+     
     </main>
   );
 };

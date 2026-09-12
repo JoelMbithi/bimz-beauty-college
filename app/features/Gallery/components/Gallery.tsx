@@ -165,7 +165,7 @@ const Gallery = () => {
             </p>
             <Link 
               href="/ApplyNow" 
-              className="inline-block bg-purple-950 text-white font-bold py-4 px-10 hover:bg-purple-900 transition-colors uppercase tracking-widest text-xs"
+              className="inline-block md:hidden bg-purple-950 text-white font-bold py-4 px-10 hover:bg-purple-900 transition-colors uppercase tracking-widest text-xs"
             >
               Apply Today
             </Link>
@@ -179,19 +179,12 @@ const Gallery = () => {
       </section>
 
       {/* Bottom CTA */}
-      <section className="py-24 md:py-32 px-4 md:px-8 lg:px-16 bg-purple-950 text-center text-white">
+      <section className="py-24 md:py-32 px-4 md:px-8 lg:px-16  text-center text-pink-600">
         <h2 className="text-4xl md:text-6xl font-bold mb-8 tracking-tight">Visit our campus in person</h2>
-        <p className="text-white/80 text-lg font-normal mb-12 max-w-xl mx-auto">
+        <p className="text-gray-600 text-lg font-normal mb-12 max-w-xl mx-auto">
           The best way to see if Bimz is right for you is to walk through our doors. Book a free tour today.
         </p>
-        <div className="flex flex-col md:flex-row justify-center items-center gap-6">
-           <Link href="/ApplyNow" className="inline-block bg-pink-500 text-white font-bold py-5 px-14 hover:bg-pink-400 transition-colors uppercase tracking-widest text-xs">
-            Apply Now
-          </Link>
-          <a href="tel:0713540556" className="text-xl font-bold border-b-2 border-pink-300 hover:border-white transition-colors pb-1">
-            0713 540 556
-          </a>
-        </div>
+       
       </section>
     </main>
   );
